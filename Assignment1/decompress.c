@@ -19,8 +19,8 @@
 
 #define SEND_INTERVAL		  (10 * CLOCK_SECOND)
 #define N 512 //size of signal
-#define L 8 //coefficients that determines amount of data transmitted
-#define M 4 // length of DCT
+#define L 8 // length of DCT
+#define M 4 //coefficients that determines amount of data transmitted
 
 
 //Generating DCT matrix 

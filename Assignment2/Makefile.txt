@@ -1,0 +1,8 @@
+CONTIKI_PROJECT = channel_sensing
+TARGET_LIBFILES += -lm
+all: $(CONTIKI_PROJECT)
+
+CONTIKI = ../..
+
+include $(CONTIKI)/Makefile.dir-variables
+include $(CONTIKI)/Makefile.include
